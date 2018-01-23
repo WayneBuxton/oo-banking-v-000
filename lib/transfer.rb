@@ -34,6 +34,5 @@ class Transfer
       sender.balance += amount
       receiver.balance -= amount
     end
-    self.execute_transaction
   end
 end
