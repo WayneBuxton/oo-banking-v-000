@@ -35,7 +35,5 @@ class Transfer
     else
       sender.balance
     end
-     
-    #binding.pry
   end
 end
