@@ -34,6 +34,6 @@ class Transfer
       receiver.balance -= amount
     end
     sender
-    binding.pry
+    #binding.pry
   end
 end
