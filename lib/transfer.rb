@@ -33,7 +33,6 @@ class Transfer
       sender.balance += amount
       receiver.balance -= amount
     end
-    sender.balance
-    
+    if sender.balance
   end
 end
