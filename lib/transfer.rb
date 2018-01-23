@@ -33,7 +33,7 @@ class Transfer
       sender.balance += amount
       receiver.balance -= amount
     end
-    sender
+    sender.balance
     #binding.pry
   end
 end
