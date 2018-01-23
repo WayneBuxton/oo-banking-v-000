@@ -34,6 +34,7 @@ class Transfer
       @status = "reversed"
       sender.balance
       receiver.balance
+      binding.pry
   end
 
 
