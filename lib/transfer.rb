@@ -29,7 +29,7 @@ class Transfer
   end
 
   def reverse_transfer
-    if @status = "reversed"
+    if @status != "reversed"
       sender.balance += amount
       receiver.balance -= amount
     else
